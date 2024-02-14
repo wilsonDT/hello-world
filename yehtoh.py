@@ -21,6 +21,3 @@ def fibonacci3(n):
         a, b = b, a + b
     return result
 
-# print yehtoh 1000 times
-for i in range(1000):
-    print("yehtoh")
