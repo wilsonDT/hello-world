@@ -10,15 +10,6 @@ def fibonacci(n):
         a, b = b, a + b
     print()
 
-# create a compatible function for the fibonacci sequence
-def fibonacci2(n):
-    a = 0
-    b = 1
-    result = []
-    for i in range(n):
-        result.append(a)
-        a, b = b, a + b
-    return result
 
 # Create the algorithm for the fibonacci sequence
 def fibonacci3(n):
